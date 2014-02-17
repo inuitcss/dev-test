@@ -1,0 +1,155 @@
+/*------------------------------------*\
+    #MEDIA
+\*------------------------------------*/
+
+/**
+ * Place any image- and text-like content side-by-side, as per:
+ * stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code
+ *
+ * Predefine the variables below in order to alter and enable specific features.
+ */
+$inuit-media-gutter:        $inuit-base-spacing-unit !default;
+$inuit-media-gutter--small: halve($inuit-media-gutter) !default;
+$inuit-media-gutter--large: double($inuit-media-gutter) !default;
+
+$inuit-enable-media--small: false !default;
+$inuit-enable-media--large: false !default;
+$inuit-enable-media--flush: false !default;
+$inuit-enable-media--rev:   false !default;
+
+
+
+
+
+.#{$inuit-namespace}media,
+%#{$inuit-namespace}media {
+    @extend %clearfix;
+    display: block;
+}
+
+    .#{$inuit-namespace}media__img,
+    %#{$inuit-namespace}media__img {
+        float: left;
+        margin-right: $inuit-media-gutter;
+
+        > img {
+            display: block;
+        }
+
+    }
+
+    .#{$inuit-namespace}media__body,
+    %#{$inuit-namespace}media__body {
+        overflow: hidden;
+
+        &,
+        > :last-child {
+            margin-bottom: 0;
+        }
+
+    }
+
+
+
+
+
+/**
+ * Size variants.
+ */
+
+@if ($inuit-enable-media--small == true) {
+
+    .#{$inuit-namespace}media--small,
+    %#{$inuit-namespace}media--small {
+
+        > .#{$inuit-namespace}media__img,
+        > %#{$inuit-namespace}media__img {
+            margin-right: $inuit-media-gutter--small;
+        }
+
+        &.#{$inuit-namespace}media--rev,
+        &%#{$inuit-namespace}media--rev {
+
+            > .#{$inuit-namespace}media__img,
+            > %#{$inuit-namespace}media__img {
+                margin-right: 0;
+                margin-left:  $inuit-media-gutter--small;
+            }
+
+        }
+
+    }
+
+}
+
+@if ($inuit-enable-media--large == true) {
+
+    .#{$inuit-namespace}media--large,
+    %#{$inuit-namespace}media--large {
+
+        > .#{$inuit-namespace}media__img,
+        > %#{$inuit-namespace}media__img {
+            margin-right: $inuit-media-gutter--large;
+        }
+
+        &.#{$inuit-namespace}media--rev,
+        &%#{$inuit-namespace}media--rev {
+
+            > .media__img,
+            > %media__img {
+                margin-right: 0;
+                margin-left:  $inuit-media-gutter--large;
+            }
+
+        }
+
+    }
+
+}
+
+
+
+
+
+/**
+ * Flush media objects have no space between the image- and text-content.
+ */
+
+@if ($inuit-enable-media--flush == true) {
+
+    .#{$inuit-namespace}media--flush,
+    %#{$inuit-namespace}media--flush {
+
+        > .#{$inuit-namespace}media__img,
+        > %#{$inuit-namespace}media__img {
+            margin-right: 0;
+            margin-left:  0;
+        }
+
+    }
+
+}
+
+
+
+
+
+/**
+ * Reversed image location (right instead of left). Extends `.media`.
+ */
+
+@if ($inuit-enable-media--rev == true) {
+
+    .#{$inuit-namespace}media--rev,
+    %#{$inuit-namespace}media--rev {
+
+        > .#{$inuit-namespace}media__img,
+        > %#{$inuit-namespace}media__img {
+            float: right;
+            margin-right: 0;
+            margin-left: $inuit-media-gutter;
+        }
+
+    }
+
+}

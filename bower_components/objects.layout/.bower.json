@@ -1,0 +1,14 @@
+{
+  "name": "objects.layout",
+  "homepage": "https://github.com/inuitcss/objects.layout",
+  "_release": "a015d99635",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "a015d99635fcd2a3b700e308414b79728d1baad6"
+  },
+  "_source": "git@github.com:inuitcss/objects.layout.git",
+  "_target": "*",
+  "_originalSource": "git@github.com:inuitcss/objects.layout.git",
+  "_direct": true
+}

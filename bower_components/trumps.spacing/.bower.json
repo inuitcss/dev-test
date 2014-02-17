@@ -1,0 +1,14 @@
+{
+  "name": "trumps.spacing",
+  "homepage": "https://github.com/inuitcss/trumps.spacing",
+  "_release": "211886db2c",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "211886db2c77fbacb3342bd04049f173f5a63848"
+  },
+  "_source": "git@github.com:inuitcss/trumps.spacing.git",
+  "_target": "*",
+  "_originalSource": "git@github.com:inuitcss/trumps.spacing.git",
+  "_direct": true
+}

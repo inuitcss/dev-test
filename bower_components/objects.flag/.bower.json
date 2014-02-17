@@ -1,0 +1,14 @@
+{
+  "name": "objects.flag",
+  "homepage": "https://github.com/inuitcss/objects.flag",
+  "_release": "2e85c51a6c",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "2e85c51a6cca15f5162691419707c686d3c8e1ac"
+  },
+  "_source": "git@github.com:inuitcss/objects.flag.git",
+  "_target": "*",
+  "_originalSource": "git@github.com:inuitcss/objects.flag.git",
+  "_direct": true
+}

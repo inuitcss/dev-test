@@ -1,0 +1,14 @@
+{
+  "name": "trumps.widths",
+  "homepage": "https://github.com/inuitcss/trumps.widths",
+  "_release": "514806df96",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "514806df96076b618a4f4320859beb178ea1084d"
+  },
+  "_source": "git@github.com:inuitcss/trumps.widths.git",
+  "_target": "*",
+  "_originalSource": "git@github.com:inuitcss/trumps.widths.git",
+  "_direct": true
+}

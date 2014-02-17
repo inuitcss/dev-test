@@ -1,0 +1,14 @@
+{
+  "name": "base.paragraphs",
+  "homepage": "https://github.com/inuitcss/base.paragraphs",
+  "_release": "a24ef670c4",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "a24ef670c478b1d00ebc817c2fe6cfbd99d30456"
+  },
+  "_source": "git@github.com:inuitcss/base.paragraphs.git",
+  "_target": "*",
+  "_originalSource": "git@github.com:inuitcss/base.paragraphs.git",
+  "_direct": true
+}

@@ -1,0 +1,14 @@
+{
+  "name": "objects.media",
+  "homepage": "https://github.com/inuitcss/objects.media",
+  "_release": "e73d243413",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "e73d24341385a3b357617cc568ae9e10cec0b3d7"
+  },
+  "_source": "git@github.com:inuitcss/objects.media.git",
+  "_target": "*",
+  "_originalSource": "git@github.com:inuitcss/objects.media.git",
+  "_direct": true
+}

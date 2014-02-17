@@ -1,0 +1,14 @@
+{
+  "name": "generic.normalize",
+  "homepage": "https://github.com/inuitcss/generic.normalize",
+  "_release": "f2eb6e0def",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "f2eb6e0defaa4a51755defacea2f04e07441c3ba"
+  },
+  "_source": "git@github.com:inuitcss/generic.normalize.git",
+  "_target": "*",
+  "_originalSource": "git@github.com:inuitcss/generic.normalize.git",
+  "_direct": true
+}

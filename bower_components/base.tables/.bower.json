@@ -1,0 +1,14 @@
+{
+  "name": "base.tables",
+  "homepage": "https://github.com/inuitcss/base.tables",
+  "_release": "aadc3cb968",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "aadc3cb9682eed36271f68880617b8cbdf56b552"
+  },
+  "_source": "git@github.com:inuitcss/base.tables.git",
+  "_target": "*",
+  "_originalSource": "git@github.com:inuitcss/base.tables.git",
+  "_direct": true
+}

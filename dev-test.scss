@@ -1,0 +1,69 @@
+@import
+
+        "bower_components/settings.defaults/settings.defaults",
+
+        "bower_components/tools.functions/tools.functions",
+        "bower_components/tools.mixins/tools.mixins",
+
+        "bower_components/generic.normalize/generic.normalize",
+        "bower_components/generic.reset/generic.reset",
+        "bower_components/generic.box-sizing/generic.box-sizing",
+        "bower_components/generic.shared/generic.shared",
+        "bower_components/generic.clearfix/generic.clearfix",
+
+        "bower_components/base.page/base.page",
+        "bower_components/base.paragraphs/base.paragraphs",
+        "bower_components/base.headings/base.headings",
+        "bower_components/base.lists/base.lists",
+        "bower_components/base.tables/base.tables",
+        "bower_components/base.images/base.images"
+
+;
+
+@import
+
+        "bower_components/objects.layout/objects.layout"
+
+;
+
+@import
+
+        "bower_components/objects.media/objects.media"
+
+;
+
+$enable-flag--rev:  true;
+@import
+
+        "bower_components/objects.flag/objects.flag"
+
+;
+
+@import
+
+        "bower_components/objects.box/objects.box"
+
+;
+
+@import
+
+        "bower_components/objects.tabs/objects.tabs",
+
+        "bower_components/trumps.widths/trumps.widths"
+
+;
+
+$inuit-enable-margins:          true;
+$inuit-enable-margins--small:   true;
+$inuit-enable-margins--large:   true;
+$inuit-enable-margins--none:    true;
+
+$inuit-enable-paddings:         true;
+$inuit-enable-paddings--small:  true;
+$inuit-enable-paddings--large:  true;
+$inuit-enable-paddings--none:   true;
+@import
+
+        "bower_components/trumps.spacing/trumps.spacing"
+
+;

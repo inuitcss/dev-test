@@ -1,0 +1,14 @@
+{
+  "name": "base.headings",
+  "homepage": "https://github.com/inuitcss/base.headings",
+  "_release": "c899a8311d",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "c899a8311d1727f252db65398044300461a420c0"
+  },
+  "_source": "git@github.com:inuitcss/base.headings.git",
+  "_target": "*",
+  "_originalSource": "git@github.com:inuitcss/base.headings.git",
+  "_direct": true
+}

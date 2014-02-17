@@ -1,0 +1,27 @@
+/*------------------------------------*\
+    #TABLES
+\*------------------------------------*/
+
+/**
+ * Simple `table` styles.
+ */
+table {
+    width: 100%;
+}
+
+    thead {
+    }
+
+    tfoot {
+    }
+
+    tbody {
+    }
+
+        tr {
+        }
+
+            th,
+            td {
+                padding: quarter($inuit-base-spacing-unit);
+            }

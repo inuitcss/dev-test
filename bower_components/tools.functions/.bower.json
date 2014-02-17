@@ -1,0 +1,14 @@
+{
+  "name": "tools.functions",
+  "homepage": "https://github.com/inuitcss/tools.functions",
+  "_release": "05b8e5fd3e",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "05b8e5fd3e646294aea771ea78d5510b4a140d32"
+  },
+  "_source": "git@github.com:inuitcss/tools.functions.git",
+  "_target": "*",
+  "_originalSource": "git@github.com:inuitcss/tools.functions.git",
+  "_direct": true
+}

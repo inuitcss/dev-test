@@ -1,0 +1,14 @@
+{
+  "name": "base.images",
+  "homepage": "https://github.com/inuitcss/base.images",
+  "_release": "2593e2640d",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "2593e2640daeca989e09c877bd58f5db98da64db"
+  },
+  "_source": "git@github.com:inuitcss/base.images.git",
+  "_target": "*",
+  "_originalSource": "git@github.com:inuitcss/base.images.git",
+  "_direct": true
+}
