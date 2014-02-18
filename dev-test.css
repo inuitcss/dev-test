@@ -846,6 +846,22 @@ img[height] {
  * 2. …and reset it.
  * 3. Reassign margins to the correct sides.
  */
+.flag--rev {
+  direction: rtl;
+  /* [1] */
+}
+.flag--rev > .flag__img,
+.flag--rev > .flag__body {
+  direction: ltr;
+  /* [2] */
+}
+.flag--rev > .flag__img {
+  padding-right: 0;
+  /* [3] */
+  padding-left: 24px;
+  /* [3] */
+}
+
 /**
  * Vertical alignment variations of the flag object. Either align image- and
  * text-content to the tops of bottoms of each other.
