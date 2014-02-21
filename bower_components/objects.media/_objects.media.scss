@@ -14,8 +14,8 @@ $inuit-media-gutter--large: double($inuit-media-gutter) !default;
 
 $inuit-enable-media--small: false !default;
 $inuit-enable-media--large: false !default;
-$inuit-enable-media--flush: false !default;
 $inuit-enable-media--rev:   false !default;
+$inuit-enable-media--flush: false !default;
 
 
 
@@ -67,13 +67,17 @@ $inuit-enable-media--rev:   false !default;
             margin-right: $inuit-media-gutter--small;
         }
 
-        &.#{$inuit-namespace}media--rev,
-        &%#{$inuit-namespace}media--rev {
+        @if ($inuit-enable-media--rev == true) {
 
-            > .#{$inuit-namespace}media__img,
-            > %#{$inuit-namespace}media__img {
-                margin-right: 0;
-                margin-left:  $inuit-media-gutter--small;
+            &.#{$inuit-namespace}media--rev,
+            &%#{$inuit-namespace}media--rev {
+
+                > .#{$inuit-namespace}media__img,
+                > %#{$inuit-namespace}media__img {
+                    margin-right: 0;
+                    margin-left:  $inuit-media-gutter--small;
+                }
+
             }
 
         }
@@ -92,38 +96,19 @@ $inuit-enable-media--rev:   false !default;
             margin-right: $inuit-media-gutter--large;
         }
 
-        &.#{$inuit-namespace}media--rev,
-        &%#{$inuit-namespace}media--rev {
+        @if ($inuit-enable-media--rev == true) {
 
-            > .media__img,
-            > %media__img {
-                margin-right: 0;
-                margin-left:  $inuit-media-gutter--large;
+            &.#{$inuit-namespace}media--rev,
+            &%#{$inuit-namespace}media--rev {
+
+                > .media__img,
+                > %media__img {
+                    margin-right: 0;
+                    margin-left:  $inuit-media-gutter--large;
+                }
+
             }
 
-        }
-
-    }
-
-}
-
-
-
-
-
-/**
- * Flush media objects have no space between the image- and text-content.
- */
-
-@if ($inuit-enable-media--flush == true) {
-
-    .#{$inuit-namespace}media--flush,
-    %#{$inuit-namespace}media--flush {
-
-        > .#{$inuit-namespace}media__img,
-        > %#{$inuit-namespace}media__img {
-            margin-right: 0;
-            margin-left:  0;
         }
 
     }
@@ -148,6 +133,29 @@ $inuit-enable-media--rev:   false !default;
             float: right;
             margin-right: 0;
             margin-left: $inuit-media-gutter;
+        }
+
+    }
+
+}
+
+
+
+
+
+/**
+ * Flush media objects have no space between the image- and text-content.
+ */
+
+@if ($inuit-enable-media--flush == true) {
+
+    .#{$inuit-namespace}media--flush,
+    %#{$inuit-namespace}media--flush {
+
+        > .#{$inuit-namespace}media__img,
+        > %#{$inuit-namespace}media__img {
+            margin-right: 0;
+            margin-left:  0;
         }
 
     }

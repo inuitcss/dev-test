@@ -26,13 +26,16 @@
 
 ;
 
+$inuit-enable-media--large: true;
+$inuit-enable-media--rev:   true;
 @import
 
         "bower_components/objects.media/objects.media"
 
 ;
 
-$inuit-enable-flag--rev:  true;
+$inuit-enable-flag--large:  true;
+$inuit-enable-flag--rev:    true;
 @import
 
         "bower_components/objects.flag/objects.flag"

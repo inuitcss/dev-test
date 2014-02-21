@@ -771,11 +771,25 @@ img[height] {
 /**
  * Size variants.
  */
-/**
- * Flush media objects have no space between the image- and text-content.
- */
+.media--large > .media__img {
+  margin-right: 48px;
+}
+.media--large.media--rev > .media__img {
+  margin-right: 0;
+  margin-left: 48px;
+}
+
 /**
  * Reversed image location (right instead of left). Extends `.media`.
+ */
+.media--rev > .media__img {
+  float: right;
+  margin-right: 0;
+  margin-left: 24px;
+}
+
+/**
+ * Flush media objects have no space between the image- and text-content.
  */
 /*------------------------------------*\
     #FLAG
@@ -835,9 +849,14 @@ img[height] {
 /**
  * Size variants.
  */
-/**
- * Flush flag objects have no space between the image- and text-content.
- */
+.flag--large > .flag__img {
+  padding-right: 48px;
+}
+.flag--large.flag--rev > .flag__img {
+  padding-right: 0;
+  padding-left: 48px;
+}
+
 /**
  * Reversed flag objects have their image-content to the right, and text-content
  * to the left.
@@ -862,6 +881,9 @@ img[height] {
   /* [3] */
 }
 
+/**
+ * Flush flag objects have no space between the image- and text-content.
+ */
 /**
  * Vertical alignment variations of the flag object. Either align image- and
  * text-content to the tops of bottoms of each other.

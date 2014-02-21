@@ -1,0 +1,34 @@
+{
+  "name": "dev-test",
+  "version": "0.0.0",
+  "homepage": "https://github.com/inuitcss/dev-test",
+  "authors": [
+    "Harry Roberts <harry@csswizardry.com>"
+  ],
+  "description": "A small, hacky dev/test environment to try out new inuitcss modules.",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "base.images": "git@github.com:inuitcss/base.images.git",
+    "base.headings": "git@github.com:inuitcss/base.headings.git",
+    "base.lists": "git@github.com:inuitcss/base.lists.git",
+    "base.page": "git@github.com:inuitcss/base.page.git",
+    "base.paragraphs": "git@github.com:inuitcss/base.paragraphs.git",
+    "generic.box-sizing": "git@github.com:inuitcss/generic.box-sizing.git",
+    "generic.clearfix": "git@github.com:inuitcss/generic.clearfix.git",
+    "base.tables": "git@github.com:inuitcss/base.tables.git",
+    "generic.normalize": "git@github.com:inuitcss/generic.normalize.git",
+    "objects.box": "git@github.com:inuitcss/objects.box.git",
+    "generic.shared": "git@github.com:inuitcss/generic.shared.git",
+    "generic.reset": "git@github.com:inuitcss/generic.reset.git",
+    "objects.layout": "git@github.com:inuitcss/objects.layout.git",
+    "objects.media": "git@github.com:inuitcss/objects.media.git#~0.1.1",
+    "objects.tabs": "git@github.com:inuitcss/objects.tabs.git",
+    "objects.flag": "git@github.com:inuitcss/objects.flag.git#~0.1.1",
+    "settings.defaults": "git@github.com:inuitcss/settings.defaults.git",
+    "tools.mixins": "git@github.com:inuitcss/tools.mixins.git",
+    "trumps.spacing": "git@github.com:inuitcss/trumps.spacing.git",
+    "tools.functions": "git@github.com:inuitcss/tools.functions.git",
+    "trumps.widths": "git@github.com:inuitcss/trumps.widths.git"
+  }
+}
