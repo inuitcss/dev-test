@@ -7,8 +7,7 @@
     "branch": "master",
     "commit": "48ff112182c3093b7e8dfc7700d12ae63268958f"
   },
-  "_source": "git@github.com:inuitcss/generic.clearfix.git",
+  "_source": "https://github.com/inuitcss/generic.clearfix.git",
   "_target": "*",
-  "_originalSource": "git@github.com:inuitcss/generic.clearfix.git",
-  "_direct": true
+  "_originalSource": "https://github.com/inuitcss/generic.clearfix.git"
 }

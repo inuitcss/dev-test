@@ -7,8 +7,7 @@
     "branch": "master",
     "commit": "a8db53ec157f813b0768d379bf49ceca37a53677"
   },
-  "_source": "git@github.com:inuitcss/tools.mixins.git",
+  "_source": "https://github.com/inuitcss/tools.mixins.git",
   "_target": "*",
-  "_originalSource": "git@github.com:inuitcss/tools.mixins.git",
-  "_direct": true
+  "_originalSource": "https://github.com/inuitcss/tools.mixins.git"
 }

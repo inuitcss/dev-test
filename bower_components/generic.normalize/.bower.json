@@ -7,8 +7,7 @@
     "branch": "master",
     "commit": "f2eb6e0defaa4a51755defacea2f04e07441c3ba"
   },
-  "_source": "git@github.com:inuitcss/generic.normalize.git",
+  "_source": "https://github.com/inuitcss/generic.normalize.git",
   "_target": "*",
-  "_originalSource": "git@github.com:inuitcss/generic.normalize.git",
-  "_direct": true
+  "_originalSource": "https://github.com/inuitcss/generic.normalize.git"
 }

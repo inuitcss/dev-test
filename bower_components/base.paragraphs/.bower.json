@@ -7,8 +7,7 @@
     "branch": "master",
     "commit": "a24ef670c478b1d00ebc817c2fe6cfbd99d30456"
   },
-  "_source": "git@github.com:inuitcss/base.paragraphs.git",
+  "_source": "https://github.com/inuitcss/base.paragraphs.git",
   "_target": "*",
-  "_originalSource": "git@github.com:inuitcss/base.paragraphs.git",
-  "_direct": true
+  "_originalSource": "https://github.com/inuitcss/base.paragraphs.git"
 }

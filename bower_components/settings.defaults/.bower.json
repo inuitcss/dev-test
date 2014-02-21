@@ -7,8 +7,7 @@
     "branch": "master",
     "commit": "12eed8a00ec8a35c7b2a910c0315c70586e91780"
   },
-  "_source": "git@github.com:inuitcss/settings.defaults.git",
+  "_source": "https://github.com/inuitcss/settings.defaults.git",
   "_target": "*",
-  "_originalSource": "git@github.com:inuitcss/settings.defaults.git",
-  "_direct": true
+  "_originalSource": "https://github.com/inuitcss/settings.defaults.git"
 }

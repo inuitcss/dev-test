@@ -8,7 +8,7 @@
     "tag": "0.1.0",
     "commit": "2e8bbd2bd3973146ea83427fea0d081cb2ee1505"
   },
-  "_source": "git@github.com:inuitcss/objects.tabs.git",
+  "_source": "https://github.com/inuitcss/objects.tabs.git",
   "_target": "*",
-  "_originalSource": "git@github.com:inuitcss/objects.tabs.git"
+  "_originalSource": "https://github.com/inuitcss/objects.tabs.git"
 }

@@ -7,8 +7,7 @@
     "branch": "master",
     "commit": "4c9a8068e2e6fb3d5d50d05bb7fb0db3765f1ed1"
   },
-  "_source": "git@github.com:inuitcss/generic.box-sizing.git",
+  "_source": "https://github.com/inuitcss/generic.box-sizing.git",
   "_target": "*",
-  "_originalSource": "git@github.com:inuitcss/generic.box-sizing.git",
-  "_direct": true
+  "_originalSource": "https://github.com/inuitcss/generic.box-sizing.git"
 }

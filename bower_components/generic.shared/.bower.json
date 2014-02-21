@@ -7,8 +7,7 @@
     "branch": "master",
     "commit": "1fc01e6d171d0eac51e5edd3fbfa2eb573fd1c42"
   },
-  "_source": "git@github.com:inuitcss/generic.shared.git",
+  "_source": "https://github.com/inuitcss/generic.shared.git",
   "_target": "*",
-  "_originalSource": "git@github.com:inuitcss/generic.shared.git",
-  "_direct": true
+  "_originalSource": "https://github.com/inuitcss/generic.shared.git"
 }

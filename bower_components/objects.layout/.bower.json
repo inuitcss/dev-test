@@ -7,8 +7,7 @@
     "branch": "master",
     "commit": "a015d99635fcd2a3b700e308414b79728d1baad6"
   },
-  "_source": "git@github.com:inuitcss/objects.layout.git",
+  "_source": "https://github.com/inuitcss/objects.layout.git",
   "_target": "*",
-  "_originalSource": "git@github.com:inuitcss/objects.layout.git",
-  "_direct": true
+  "_originalSource": "https://github.com/inuitcss/objects.layout.git"
 }

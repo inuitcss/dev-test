@@ -8,7 +8,7 @@
     "tag": "0.1.2",
     "commit": "0d633440ede170089efae71993cf44318b1c2422"
   },
-  "_source": "git@github.com:inuitcss/objects.flag.git",
+  "_source": "https://github.com/inuitcss/objects.flag.git",
   "_target": "~0.1.1",
-  "_originalSource": "git@github.com:inuitcss/objects.flag.git"
+  "_originalSource": "https://github.com/inuitcss/objects.flag.git"
 }

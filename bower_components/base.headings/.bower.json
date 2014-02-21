@@ -7,8 +7,7 @@
     "branch": "master",
     "commit": "c899a8311d1727f252db65398044300461a420c0"
   },
-  "_source": "git@github.com:inuitcss/base.headings.git",
+  "_source": "https://github.com/inuitcss/base.headings.git",
   "_target": "*",
-  "_originalSource": "git@github.com:inuitcss/base.headings.git",
-  "_direct": true
+  "_originalSource": "https://github.com/inuitcss/base.headings.git"
 }

@@ -7,7 +7,7 @@
     "branch": "master",
     "commit": "f2bdba8eea8509b3ff50801b3f239d9e278037ef"
   },
-  "_source": "git@github.com:inuitcss/trumps.widths.git",
+  "_source": "https://github.com/inuitcss/trumps.widths.git",
   "_target": "*",
-  "_originalSource": "git@github.com:inuitcss/trumps.widths.git"
+  "_originalSource": "https://github.com/inuitcss/trumps.widths.git"
 }

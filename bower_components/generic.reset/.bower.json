@@ -7,8 +7,7 @@
     "branch": "master",
     "commit": "a21afeb7cc7bf1fd7e50b3a3fc60b0ecb458a140"
   },
-  "_source": "git@github.com:inuitcss/generic.reset.git",
+  "_source": "https://github.com/inuitcss/generic.reset.git",
   "_target": "*",
-  "_originalSource": "git@github.com:inuitcss/generic.reset.git",
-  "_direct": true
+  "_originalSource": "https://github.com/inuitcss/generic.reset.git"
 }

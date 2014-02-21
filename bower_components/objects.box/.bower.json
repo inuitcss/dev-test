@@ -7,8 +7,7 @@
     "branch": "master",
     "commit": "4ed20df761fac3387b04ab391f4f83e793004782"
   },
-  "_source": "git@github.com:inuitcss/objects.box.git",
+  "_source": "https://github.com/inuitcss/objects.box.git",
   "_target": "*",
-  "_originalSource": "git@github.com:inuitcss/objects.box.git",
-  "_direct": true
+  "_originalSource": "https://github.com/inuitcss/objects.box.git"
 }

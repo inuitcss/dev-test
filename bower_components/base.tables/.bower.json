@@ -7,8 +7,7 @@
     "branch": "master",
     "commit": "aadc3cb9682eed36271f68880617b8cbdf56b552"
   },
-  "_source": "git@github.com:inuitcss/base.tables.git",
+  "_source": "https://github.com/inuitcss/base.tables.git",
   "_target": "*",
-  "_originalSource": "git@github.com:inuitcss/base.tables.git",
-  "_direct": true
+  "_originalSource": "https://github.com/inuitcss/base.tables.git"
 }

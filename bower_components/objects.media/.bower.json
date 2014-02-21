@@ -8,7 +8,7 @@
     "tag": "0.1.2",
     "commit": "8efeae35c70260803bb5bb305305907f470c8eff"
   },
-  "_source": "git@github.com:inuitcss/objects.media.git",
+  "_source": "https://github.com/inuitcss/objects.media.git",
   "_target": "~0.1.1",
-  "_originalSource": "git@github.com:inuitcss/objects.media.git"
+  "_originalSource": "https://github.com/inuitcss/objects.media.git"
 }

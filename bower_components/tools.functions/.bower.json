@@ -7,8 +7,7 @@
     "branch": "master",
     "commit": "05b8e5fd3e646294aea771ea78d5510b4a140d32"
   },
-  "_source": "git@github.com:inuitcss/tools.functions.git",
+  "_source": "https://github.com/inuitcss/tools.functions.git",
   "_target": "*",
-  "_originalSource": "git@github.com:inuitcss/tools.functions.git",
-  "_direct": true
+  "_originalSource": "https://github.com/inuitcss/tools.functions.git"
 }

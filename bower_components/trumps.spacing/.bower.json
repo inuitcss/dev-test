@@ -7,8 +7,7 @@
     "branch": "master",
     "commit": "211886db2c77fbacb3342bd04049f173f5a63848"
   },
-  "_source": "git@github.com:inuitcss/trumps.spacing.git",
+  "_source": "https://github.com/inuitcss/trumps.spacing.git",
   "_target": "*",
-  "_originalSource": "git@github.com:inuitcss/trumps.spacing.git",
-  "_direct": true
+  "_originalSource": "https://github.com/inuitcss/trumps.spacing.git"
 }
