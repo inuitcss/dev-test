@@ -1,75 +1,88 @@
-@import
+// We import types of file in the following order:
+//
+// Settings -- Sass vars, etc.
+// Tools -- Functions and mixins.
+// Generic -- Generic, high-level styling, like resets, etc.
+// Base -- Unclasses HTML elements (e.g. `h2`, `ul`).
+// Object -- Objects and abstractions.
+// Components -- Your designed UI elements (inuitcss includes none of these).
+// Trumps -- Overrides and helper classes.
+//
+// These shearing layers are what make inuitcss so scalable.
 
-        "bower_components/inuit-defaults/settings.defaults",
+@import "bower_components/inuit-defaults/settings.defaults";
 
-        "bower_components/inuit-functions/tools.functions",
-        "bower_components/inuit-mixins/tools.mixins",
 
-        "tools.aliases",
 
-        "bower_components/inuit-normalize/generic.normalize",
-        "bower_components/inuit-reset/generic.reset",
-        "bower_components/inuit-box-sizing/generic.box-sizing",
-        "bower_components/inuit-shared/generic.shared",
-        "bower_components/inuit-clearfix/generic.clearfix"
 
-;
 
-@import
+@import "bower_components/inuit-functions/tools.functions";
 
-        "bower_components/inuit-page/base.page"
+@import "bower_components/inuit-mixins/tools.mixins";
 
-;
+// We can import our own partials in the relevant locations/layers.
+@import "tools.aliases";
 
+
+
+
+
+@import "bower_components/inuit-normalize/generic.normalize";
+
+@import "bower_components/inuit-reset/generic.reset";
+
+@import "bower_components/inuit-box-sizing/generic.box-sizing";
+
+@import "bower_components/inuit-shared/generic.shared";
+
+@import "bower_components/inuit-clearfix/generic.clearfix";
+
+
+
+
+
+@import "bower_components/inuit-page/base.page";
+
+// We can intersperse our own CSS in and amongst inuitcss imports.
 html {
     padding: $spacing-unit;
 }
 
-@import
+@import "bower_components/inuit-paragraphs/base.paragraphs";
 
-        "bower_components/inuit-paragraphs/base.paragraphs",
-        "bower_components/inuit-headings/base.headings",
-        "bower_components/inuit-lists/base.lists",
-        "bower_components/inuit-tables/base.tables",
-        "bower_components/inuit-images/base.images"
+@import "bower_components/inuit-headings/base.headings";
 
-;
+@import "bower_components/inuit-lists/base.lists";
 
-@import
+@import "bower_components/inuit-tables/base.tables";
 
-        "bower_components/inuit-layout/objects.layout"
+@import "bower_components/inuit-images/base.images";
 
-;
 
+
+
+
+@import "bower_components/inuit-layout/objects.layout";
+
+// Override and enable settings and features inline, just before their partial
+// is imported.
 $inuit-enable-media--large: true;
 $inuit-enable-media--rev:   true;
-@import
-
-        "bower_components/inuit-media/objects.media"
-
-;
+@import "bower_components/inuit-media/objects.media";
 
 $inuit-enable-flag--large:  true;
 $inuit-enable-flag--rev:    true;
-@import
+@import "bower_components/inuit-flag/objects.flag";
 
-        "bower_components/inuit-flag/objects.flag"
+@import "bower_components/inuit-box/objects.box";
 
-;
+@import "bower_components/inuit-tabs/objects.tabs"; 
 
-@import
 
-        "bower_components/inuit-box/objects.box"
 
-;
 
-@import
 
-        "bower_components/inuit-tabs/objects.tabs",
-
-        "bower_components/inuit-widths/trumps.widths"
-
-;
+@import "bower_components/inuit-widths/trumps.widths";
 
 $inuit-enable-margins:          true;
 $inuit-enable-margins--small:   true;
@@ -80,8 +93,4 @@ $inuit-enable-paddings:         true;
 $inuit-enable-paddings--small:  true;
 $inuit-enable-paddings--large:  true;
 $inuit-enable-paddings--none:   true;
-@import
-
-        "bower_components/inuit-spacing/trumps.spacing"
-
-;
+@import "bower_components/inuit-spacing/trumps.spacing";
