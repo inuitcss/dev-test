@@ -60,6 +60,12 @@
    }
  *
  */
+/*------------------------------------*\
+    #ALIASES
+\*------------------------------------*/
+/**
+ * Reassign lengthy inuitcss variables to shorter alternatives.
+ */
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -581,6 +587,10 @@ html {
   /* [2] */
   min-height: 100%;
   /* [3] */
+}
+
+html {
+  padding: 24px;
 }
 
 /*------------------------------------*\
