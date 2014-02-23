@@ -1,71 +1,4 @@
 @charset "UTF-8";
-/*------------------------------------*\
-    #DEFAULTS
-\*------------------------------------*/
-/**
- * These variables are inuitcss’ defaults; they should not be modified or
- * adjusted, you should redfine the variables in your own overrides file and
- * include it in your project before this file. 
- */
-/**
- * High-level base settings.
- */
-/**
- * Namespace.
- *
- * Would you like inuitcss’ classes to be prepended with a namespace? If so,
- * define it here.
- */
-/**
- * Headings.
- *
- * These font sizes, defined in pixels, will be converted into rems (with pixel
- * fallbacks) by inuitcss.
- */
-/**
- * These variables are framework variables, sourced from variables defined
- * above. Feel free to use these variables throughout your project, but do not
- * modify or reassign them.
- */
-/*------------------------------------*\
-    #FUNCTIONS
-\*------------------------------------*/
-/**
- * inuitcss makes use of a few functions that are also available for you to use
- * later on in your extension of the framework.
- */
-/**
- * Maths helpers.
- *
- * Halve and double numbers, returning rounded integers. E.g.:
- *
-   .foo {
-       padding: halve(3.2px);
-   }
- *
- */
-/*------------------------------------*\
-    #MIXINS
-\*------------------------------------*/
-/**
- * inuitcss has a number of default mixins that the framework, and developers
- * working with it, can make use of.
- */
-/**
- * Create a fully formed type style (sizing and vertical rhythm) by passing in a
- * single value, e.g.:
- *
-   .foo {
-       @include font-size(10px);
-   }
- *
- */
-/*------------------------------------*\
-    #ALIASES
-\*------------------------------------*/
-/**
- * Reassign lengthy inuitcss variables to shorter alternatives.
- */
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -515,10 +448,6 @@ ins {
   box-sizing: border-box;
 }
 
-/**
- * If we have included this file, set a variable to tell the rest of the
- * framework that global `box-sizing: border-box` has been set.
- */
 /*------------------------------------*\
     #SHARED
 \*------------------------------------*/
@@ -671,8 +600,6 @@ li > ol {
 \*------------------------------------*/
 /**
  * Simple `table` styles.
- *
- * Predefine the variables below in order to alter specific features.
  */
 table {
   width: 100%;
@@ -714,13 +641,6 @@ img[height] {
  * `display: inline-block;` to create an extremely powerful, flexible
  * alternative to the traditional grid system. Combine the layout items with
  * the widths found in `trumps.widths`.
- *
- * Predefine the variables below in order to alter and enable specific features.
- */
-/**
- * Here we set a variable assuming that `box-sizing: border-box;` is not set
- * globally. If it has been previously been defined, the following variable will
- * be overriden and will be set to `true`.
  */
 /**
  * Begin a layout group.
@@ -750,33 +670,12 @@ img[height] {
   /* [4] */
 }
 
-/**
- * Different size variations.
- */
-/**
- * Layout items without gutters.
- */
-/**
- * Reversed rendered order of layout items, e.g. items 1, 2, 3, 4 in your markup
- * will display in order 4, 3, 2, 1 on your page.
- */
-/**
- * Align layout items to the vertical centers or bottoms of each other.
- */
-/**
- * Make the layout items fill up from the right hand side.
- */
-/**
- * Make the layout items fill up from the center outward.
- */
 /*------------------------------------*\
     #MEDIA
 \*------------------------------------*/
 /**
  * Place any image- and text-like content side-by-side, as per:
  * stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code
- *
- * Predefine the variables below in order to alter and enable specific features.
  */
 .media {
   display: block;
@@ -799,8 +698,13 @@ img[height] {
 }
 
 /**
- * Size variants.
+ * Large media objects.
  */
+.media--large {
+  /**
+   * Large reversed media objects.
+   */
+}
 .media--large > .media__img {
   margin-right: 48px;
 }
@@ -818,9 +722,6 @@ img[height] {
   margin-left: 24px;
 }
 
-/**
- * Flush media objects have no space between the image- and text-content.
- */
 /*------------------------------------*\
     #FLAG
 \*------------------------------------*/
@@ -828,8 +729,6 @@ img[height] {
  * The flag object is a design pattern similar to the media object, however it
  * utilises `display: table[-cell];` to give us control over the vertical
  * alignments of the text and image. csswizardry.com/2013/05/the-flag-object
- *
- * Predefine the variables below in order to alter and enable specific features.
  */
 /**
  * 1. Allows us to control vertical alignments
@@ -877,8 +776,13 @@ img[height] {
 }
 
 /**
- * Size variants.
+ * Large flags.
  */
+.flag--large {
+  /**
+   * Large reversed flags.
+   */
+}
 .flag--large > .flag__img {
   padding-right: 48px;
 }
@@ -911,20 +815,11 @@ img[height] {
   /* [3] */
 }
 
-/**
- * Flush flag objects have no space between the image- and text-content.
- */
-/**
- * Vertical alignment variations of the flag object. Either align image- and
- * text-content to the tops of bottoms of each other.
- */
 /*------------------------------------*\
     #BOX
 \*------------------------------------*/
 /**
  * The box object simply boxes off content.
- *
- * Predefine the variables below in order to alter and enable specific features.
  */
 /**
  * 1. So we can apply the `.box` class to naturally-inline elements.
@@ -938,9 +833,6 @@ img[height] {
   margin-bottom: 0;
 }
 
-/**
- * Size variants
- */
 /*------------------------------------*\
     #TABS
 \*------------------------------------*/
