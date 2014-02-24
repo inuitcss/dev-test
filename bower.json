@@ -28,6 +28,7 @@
     "inuit-box": "~0.1.2",
     "inuit-tabs": "~0.1.1",
     "inuit-widths": "~0.1.1",
-    "inuit-spacing": "~0.1.1"
+    "inuit-spacing": "~0.1.1",
+    "inuit-bare-list": "~0.1.0"
   }
 }

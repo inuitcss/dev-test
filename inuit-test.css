@@ -671,6 +671,17 @@ img[height] {
 }
 
 /*------------------------------------*\
+    #BARE-LIST
+\*------------------------------------*/
+/**
+ * The bare-list object simply removes any indents and bullet points from lists.
+ */
+.bare-list {
+  margin-left: 0;
+  list-style: none;
+}
+
+/*------------------------------------*\
     #MEDIA
 \*------------------------------------*/
 /**
