@@ -12,6 +12,9 @@
 
 @import "bower_components/inuit-defaults/settings.defaults";
 
+// We can add our own settings.
+@import "settings.colors";
+
 
 
 
@@ -20,7 +23,8 @@
 
 @import "bower_components/inuit-mixins/tools.mixins";
 
-// We can import our own partials in the relevant locations/layers.
+// We can import our own partials in the relevant locations/layers. We name them
+// in the _<layer>.<file>.scss format.
 @import "tools.aliases";
 
 
@@ -46,6 +50,10 @@
 // We can intersperse our own CSS in and amongst inuitcss imports.
 html {
     padding: $spacing-unit;
+}
+
+a {
+    color: $color-links;
 }
 
 @import "bower_components/inuit-paragraphs/base.paragraphs";
