@@ -74,6 +74,10 @@ a {
 
 @import "bower_components/inuit-bare-list/objects.bare-list";
 
+@import "bower_components/inuit-block-list/objects.block-list";
+
+@import "bower_components/inuit-ui-list/objects.ui-list";
+
 // Override and enable settings and features inline, just before their partial
 // is imported.
 $inuit-enable-media--large: true;
