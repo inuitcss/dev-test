@@ -681,7 +681,7 @@ img[height] {
  * The bare-list object simply removes any indents and bullet points from lists.
  */
 .bare-list {
-  margin-left: 0;
+  margin: 0;
   padding: 0;
   list-style: none;
 }
@@ -693,7 +693,7 @@ img[height] {
  * The block list object creates blocky list items out of a `ul` or `ol`.
  */
 .block-list {
-  margin-left: 0;
+  margin: 0;
   padding: 0;
   list-style: none;
 }
@@ -715,7 +715,7 @@ img[height] {
 }
 
 .ui-list {
-  margin-left: 0;
+  margin: 0;
   padding: 0;
   list-style: none;
   border-top-width: 1px;
@@ -724,6 +724,13 @@ img[height] {
 .ui-list__item {
   padding: 24px;
   border-bottom-width: 1px;
+}
+
+/**
+ * Small ui-lists.
+ */
+.ui-list--small > .ui-list__item {
+  padding: 12px;
 }
 
 /*------------------------------------*\
