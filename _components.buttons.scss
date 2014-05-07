@@ -2,8 +2,14 @@
     #BUTTONS
 \*------------------------------------*/
 
+.btn {
+    -webkit-transition: 0.333s;
+       -moz-transition: 0.333s;
+            transition: 0.333s;
+}
+
 .btn--secondary {
-    background: none;
+    color: $inuit-btn-background;
     border-color: $inuit-btn-background;
 
     &,
@@ -11,7 +17,13 @@
     &:active,
     &:focus,
     &:visited {
-        color: $inuit-btn-background;
+        background: none;
+    }
+
+    &:hover,
+    &:active,
+    &:focus {
+        color: darken($inuit-btn-background, 15%);
     }
 
 }
