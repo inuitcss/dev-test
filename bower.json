@@ -31,7 +31,8 @@
     "inuit-spacing": "latest",
     "inuit-bare-list": "latest",
     "inuit-ui-list": "latest",
-    "inuit-block-list": "latest"
+    "inuit-block-list": "latest",
+    "inuit-buttons": "latest"
   },
   "resolutions": {
     "inuit-functions": "0.2.0"

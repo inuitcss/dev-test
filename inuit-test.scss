@@ -62,8 +62,6 @@ a {
 
 @import "bower_components/inuit-lists/base.lists";
 
-@import "bower_components/inuit-tables/objects.tables";
-
 @import "bower_components/inuit-images/base.images";
 
 
@@ -81,6 +79,8 @@ a {
 $inuit-enable-ui-list--small:   true;
 @import "bower_components/inuit-ui-list/objects.ui-list";
 
+@import "bower_components/inuit-tables/objects.tables";
+
 $inuit-enable-media--large: true;
 $inuit-enable-media--rev:   true;
 @import "bower_components/inuit-media/objects.media";
@@ -91,7 +91,17 @@ $inuit-enable-flag--rev:    true;
 
 @import "bower_components/inuit-box/objects.box";
 
+$inuit-enable-btn--large:   true;
+$inuit-btn-border-width:    2px;
+@import "bower_components/inuit-buttons/objects.buttons";
+
 @import "bower_components/inuit-tabs/objects.tabs"; 
+
+
+
+
+
+@import "components.buttons";
 
 
 

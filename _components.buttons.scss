@@ -1,0 +1,17 @@
+/*------------------------------------*\
+    #BUTTONS
+\*------------------------------------*/
+
+.btn--secondary {
+    background: none;
+    border-color: $inuit-btn-background;
+
+    &,
+    &:hover,
+    &:active,
+    &:focus,
+    &:visited {
+        color: $inuit-btn-background;
+    }
+
+}
