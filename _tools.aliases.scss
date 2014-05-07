@@ -6,5 +6,5 @@
 $spacing-unit:          $inuit-base-spacing-unit;
 
 @mixin font-size($args...) {
-    @include inuit-font-size($args);
+    @include inuit-font-size($args...);
 }
