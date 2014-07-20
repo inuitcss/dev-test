@@ -1,5 +1,10 @@
 @charset "UTF-8";
-/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+/*!
+ * inuitcss, by @csswizardry
+ *
+ * github.com/inuitcss | inuitcss.com
+ */
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
@@ -407,6 +412,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 dl, dd, ol, ul,
 form, fieldset, legend,
+figure,
 table, th, td, caption,
 hr {
   margin: 0;
@@ -441,11 +447,20 @@ ins {
 \*------------------------------------*/
 /**
  * Set the global `box-sizing` state to `border-box`.
+ *
+ * css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
+ * paulirish.com/2012/box-sizing-border-box-ftw
  */
-*, *:before, *:after {
+html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 /*------------------------------------*\
@@ -456,7 +471,7 @@ ins {
  * base line-height. This allows us to keep a consistent vertical rhythm.
  * As per: csswizardry.com/2012/06/single-direction-margin-declarations
  */
-h1, h2, h3, h4, h5, h6, hgroup,
+h1, h2, h3, h4, h5, h6,
 ul, ol, dl,
 blockquote, p, address,
 table,
@@ -476,22 +491,6 @@ ul, ol, dd {
 }
 
 /*------------------------------------*\
-    #CLEARFIX
-\*------------------------------------*/
-/**
- * Micro clearfix, as per: css-101.org/articles/clearfix/latest-new-clearfix-so-far.php
- * Extend the clearfix class with Sass to avoid the `.clearfix` class appearing
- * over and over in your markup.
- */
-.clearfix:after,
-.media:after,
-.box:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/*------------------------------------*\
     #PAGE
 \*------------------------------------*/
 /**
@@ -504,6 +503,9 @@ ul, ol, dd {
  *    navigating between pages that do/do not have enough content to produce
  *    scrollbars naturally.
  * 3. Ensure the page always fills at least the entire height of the viewport.
+ * 4. Prevent certain mobile browsers from automatically zooming fonts.
+ * 5. Fonts on OSX will look more consistent with other systems that do not
+ *    render text using sub-pixel anti-aliasing.
  */
 html {
   font-size: 1em;
@@ -516,6 +518,14 @@ html {
   /* [2] */
   min-height: 100%;
   /* [3] */
+  -webkit-text-size-adjust: 100%;
+  /* [4] */
+  -ms-text-size-adjust: 100%;
+  /* [4] */
+  -moz-osx-font-smoothing: grayscale;
+  /* [5] */
+  -webkit-font-smoothing: antialiased;
+  /* [5] */
 }
 
 html {
@@ -605,12 +615,17 @@ li > ol {
 /**
  * 1. Fluid images for responsive purposes.
  * 2. Offset `alt` text from surrounding copy.
+ * 3. Setting `vertical-align` removes the whitespace that appears under `img`
+ *    elements when they are dropped into a page as-is. Safer alternative to
+ *    using `display: block;`.
  */
 img {
   max-width: 100%;
   /* [1] */
   font-style: italic;
   /* [2] */
+  vertical-align: middle;
+  /* [3] */
 }
 
 /**
@@ -834,6 +849,10 @@ img[height] {
   width: 100%;
   /* [1] */
 }
+.flag__body,
+.flag__body > :last-child {
+  margin-bottom: 0;
+}
 
 /**
  * Large flags.
@@ -959,7 +978,8 @@ img[height] {
 \*------------------------------------*/
 /**
  * A simple abstraction for making equal-width navigation tabs.
- *
+ */
+/**
  * 1. Reset any residual styles (most likely from lists).
  * 2. Tables for layout!
  * 3. Force all `table-cell` children to have equal widths.
@@ -1009,6 +1029,22 @@ img[height] {
 }
 .btn--secondary:hover, .btn--secondary:active, .btn--secondary:focus {
   color: #30668f;
+}
+
+/*------------------------------------*\
+    #CLEARFIX
+\*------------------------------------*/
+/**
+ * Micro clearfix, as per: css-101.org/articles/clearfix/latest-new-clearfix-so-far.php
+ * Extend the clearfix class with Sass to avoid the `.clearfix` class appearing
+ * over and over in your markup.
+ */
+.clearfix:after,
+.media:after,
+.box:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /*------------------------------------*\

@@ -39,8 +39,6 @@
 
 @import "bower_components/inuit-shared/generic.shared";
 
-@import "bower_components/inuit-clearfix/generic.clearfix";
-
 
 
 
@@ -106,6 +104,8 @@ $inuit-btn-border-width:    2px;
 
 
 
+
+@import "bower_components/inuit-clearfix/trumps.clearfix";
 
 @import "bower_components/inuit-widths/trumps.widths";
 
