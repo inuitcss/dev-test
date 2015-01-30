@@ -1,0 +1,49 @@
+{
+  "name": "dev-test",
+  "version": "0.0.1",
+  "description": "Base heading rules for the inuitcss framework",
+  "main": "_base.headings.scss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inuitcss/base.headings.git"
+  },
+  "author": "Harry Roberts <harry@csswizardry.com>",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/inuitcss/base.headings/issues"
+  },
+  "homepage": "https://github.com/inuitcss/base.headings",
+  "keywords": [
+    "inuitcss",
+    "oocss",
+    "css"
+  ],
+  "private": true,
+  "dependencies": {
+    "inuit-defaults": "latest",
+    "inuit-functions": "latest",
+    "inuit-mixins": "latest",
+    "inuit-normalize": "latest",
+    "inuit-reset": "latest",
+    "inuit-box-sizing": "latest",
+    "inuit-shared": "latest",
+    "inuit-clearfix": "latest",
+    "inuit-page": "latest",
+    "inuit-paragraphs": "latest",
+    "inuit-headings": "latest",
+    "inuit-lists": "latest",
+    "inuit-tables": "latest",
+    "inuit-images": "latest",
+    "inuit-layout": "latest",
+    "inuit-media": "latest",
+    "inuit-flag": "latest",
+    "inuit-box": "latest",
+    "inuit-tabs": "latest",
+    "inuit-widths": "latest",
+    "inuit-spacing": "latest",
+    "inuit-bare-list": "latest",
+    "inuit-ui-list": "latest",
+    "inuit-block-list": "latest",
+    "inuit-buttons": "latest"
+  }
+}
